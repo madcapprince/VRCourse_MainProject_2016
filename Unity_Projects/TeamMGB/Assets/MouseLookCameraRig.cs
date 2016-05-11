@@ -37,8 +37,8 @@ public class MouseLookCameraRig : MonoBehaviour
 		#else
 			//only run when no vr device enabled!
 			//Debug.Log("vr device = "+UnityEngine.VR.VRSettings.loadedDevice);
-			if ((UnityEngine.VR.VRSettings.loadedDevice != UnityEngine.VR.VRDeviceType.None)&&
-			(UnityEngine.VR.VRSettings.loadedDevice != UnityEngine.VR.VRDeviceType.Unknown)) //HACK!
+			//if ((UnityEngine.VR.VRSettings.loadedDevice != UnityEngine.VR.VRDeviceType.None)&&
+		if (UnityEngine.VR.VRSettings.loadedDevice != UnityEngine.VR.VRDeviceType.None) //HACK!
 			{
 				return;
 			}
