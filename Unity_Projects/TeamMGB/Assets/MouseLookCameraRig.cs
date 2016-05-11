@@ -38,10 +38,10 @@ public class MouseLookCameraRig : MonoBehaviour
 			//only run when no vr device enabled!
 			//Debug.Log("vr device = "+UnityEngine.VR.VRSettings.loadedDevice);
 			//if ((UnityEngine.VR.VRSettings.loadedDevice != UnityEngine.VR.VRDeviceType.None)&&
-		if (UnityEngine.VR.VRSettings.loadedDevice != UnityEngine.VR.VRDeviceType.None) //HACK!
+		/*if (UnityEngine.VR.VRSettings.loadedDevice != UnityEngine.VR.VRDeviceType.None) //HACK!
 			{
 				return;
-			}
+			}*/
 		#endif
 
         float mdx = Input.GetAxis("MouseLookX");//get mouse deltas! //NOTE: bad on touchpad!
