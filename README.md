@@ -9,5 +9,5 @@ Asset Serialization:mode: Force Text
 
 
 
-/***.gitignore file***/ slkjdflksj
+/***.gitignore file***/
 
